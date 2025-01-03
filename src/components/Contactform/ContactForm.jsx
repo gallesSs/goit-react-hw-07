@@ -3,7 +3,7 @@ import css from "./ContactForm.module.css";
 import * as Yup from "yup";
 import { ErrorMessage } from "formik";
 import { useDispatch } from "react-redux";
-import {addContact} from '../../redux/contactsSlice.js';
+import {addContact} from '../../redux/contactsOps.js';
 import {nanoid} from 'nanoid';
 
 const ContactForm = () => {
